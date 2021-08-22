@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  margin: 0;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.common__bg__cyan{
+ background-color: #E8FCFA;
+}
+
+.common__bg__dark__blue{
+  background-color: #1F2235 ;
+  color: #fff;
+ }
+
+ .common__btn{
+  background-color: transparent;
+  border: 1px solid #000;
+}
+
+.common__btn:hover{
+  background-color: #000;
+  color: #fff;
+}
+/*Connect Button Design Start*/
+.connect{
+  position: relative;
+  display: inline-block;
+  background:transparent;
+  border: 1px solid #000;
+  color:#000;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.connect:hover{
+  color: #fff;
+  background: #000;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 0.2s;
+}
+.connect span{
+  position: absolute;
+  display: block;
+}
+.connect span:nth-child(1)  {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#2196f3);
+}
+.connect:hover span:nth-child(1) {
+  left: 100%;
+  transition: 0.5s;
+}
+.connect span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#2196f3);
+}
+.connect:hover span:nth-child(3) {
+  left: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+.connect span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#2196f3);
+}
+.connect:hover span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+.connect span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#2196f3);
+}
+.connect:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+/*Connect Button Design End */
+
+
+ /* calendar design */
+.calender-area{
+  position: absolute;
+  bottom: -50px;
+}
+.react-calendar{
+  border: 0 ;
+  box-shadow: 0 0 10px #f1eded;
+  padding: 5%;
+  width: 100%;
+}
+.react-calendar__navigation{
+  height: 100px;
+}
+.react-calendar__month-view__weekdays abbr[data-original-title], 
+.react-calendar__month-view__weekdays abbr[title] ,
+.react-calendar__month-view__days__day,
+.react-calendar__month-view__weekdays,
+.react-calendar__month-view__days__day--weekend{
+  text-decoration: none;
+  color:#686868 ;
+  text-transform: unset;
+
+}
+.react-calendar__month-view__days__day--neighboringMonth{
+  color: #eaeaea;
+}
+.react-calendar__tile--active{
+  background-image: linear-gradient(75deg, #19D3AE,#0fcfec) ;
+  border-radius: 5px;
+  color: #ffffff ;
+}
+.react-calendar__navigation__prev2-button,
+.react-calendar__navigation__next2-button
+{
+  display: none;
+}
+.react-calendar__navigation__next-button,
+.react-calendar__navigation__prev-button
+{
+  font-size: 2em;
+  opacity: 0.2;
+}
+.react-calendar__tile {
+  padding: 1em 0.5em;
+}
+
+/* End of calendar design */
+

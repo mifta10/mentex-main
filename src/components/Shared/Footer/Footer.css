@@ -1,0 +1,34 @@
+.footer__area{
+  background-image: url(../../assets//images/footer-bg.png);
+  background-size: cover;
+}
+
+.footer__area li{
+  padding-bottom: 10px;
+}
+
+.social__media .icon{
+  height: 40px;
+  width: 40px;
+  color: #1cc7c1;
+  border-radius: 50%;
+  border: 1px solid #6ACECE;
+  padding: 10px;
+  transition: 0.5s;
+}
+.social__media .icon:hover{
+    background: #393939;
+    color: #1cc7c1;
+    transform: rotate(360deg)
+}
+.social__media .active-icon{
+  background-color: #6ACECE ;
+  color:white;
+}
+
+@media only screen and (min-width: 0px) and (max-width:767px){
+  .footer__area{
+    text-align: center
+  }
+}
+

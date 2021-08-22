@@ -1,0 +1,22 @@
+.post__container{
+  height: 100vh;
+}
+.upload{
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  background:#E5F3FF;
+  border: 1px solid #0084FF;
+  color:#0084FF;
+  text-decoration: none;
+  overflow: hidden;
+}
+.fa-cloud-upload-alt{
+  font-size: 20px;
+}
+
+@media only screen and (min-width:0px) and (max-width:767px){
+  .upload{
+    width: 100%;
+  }
+}

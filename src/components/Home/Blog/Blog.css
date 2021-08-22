@@ -1,0 +1,128 @@
+.blog__title::before{
+  content:'';
+  background: #5AE4A7;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+.blog__title::after{
+  content:'';
+  background: #5AE4A7;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+
+.blogs .card-header{
+  border: 0;
+  background-color: transparent;
+}
+.blogs .card:hover{
+  z-index: 1;
+  box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+  transform: scale(1.08);
+  background-image: linear-gradient(75deg, #19D3AE,#0fcfec);
+  color: #fff !important;
+  transition:  .2s  all ease-in-out !important;
+}
+.blogs .card:hover .card-body{
+  background-image: url(../../assets/images/quote.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 60%;
+}
+.blogs .card:hover h6,
+.blogs .card:hover p
+{
+  color: #fff !important;
+
+}
+.blogs .card:hover img{
+  display: none;
+}
+@media screen and (min-width: 260px) and (max-width:314px){
+  .blog__title{
+    font-size:20px;
+  }
+  .blog__title::before{
+    content:'';
+    background: #5AE4A7;
+    height: 5px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(64px);
+  }
+  .blog__title::after{
+    content:'';
+    background: #5AE4A7;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+  }
+}
+@media screen and (min-width: 315px) and (max-width:380px){
+  .blog__title{
+    font-size:20px;
+  }
+  .blog__title::before{
+    content:'';
+    background: #5AE4A7;
+    height: 5px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(40px);
+  }
+  .blog__title::after{
+    content:'';
+    background: #5AE4A7;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+  }
+}
+
+@media screen and (min-width: 381px) and (max-width:503px){
+  .blog__title{
+    font-size:25px;
+  }
+  .blog__title::before{
+    content:'';
+    background: #5AE4A7;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(45px);
+  }
+  .blog__title::after{
+    content:'';
+    background: #5AE4A7;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+  }
+}
